@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first_section{
+    display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+@media screen and (min-width:700px){
+.first_section{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.first_section div{
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    border: 2px soild black;
+}
+}
+
+@media screen and (max-width:500px) {
+    div{
+        background-color: aqua;
+    }
+    
+}
